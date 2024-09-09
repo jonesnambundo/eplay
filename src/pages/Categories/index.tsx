@@ -11,41 +11,41 @@ const promocoes: Game[] = [
     id: 1,
     category: 'Ação',
     description:
-      'Resident Evil 4, conhecido no Jpão como Biohazard 4, é um jogo eletronico de survival horror...',
+      'Resident Evil 4, conhecido no Japão como Biohazard 4, é um jogo eletrônico de survival horror...',
     title: 'Resident Evil 4',
-    system: 'windows',
+    system: 'Windows',
     infos: ['10%', 'R$ 250,00'],
-    image: 'resident'
+    image: resident
   },
   {
     id: 2,
     category: 'Ação',
     description:
-      'Resident Evil 4, conhecido no Jpão como Biohazard 4, é um jogo eletronico de survival horror...',
+      'Resident Evil 4, conhecido no Japão como Biohazard 4, é um jogo eletrônico de survival horror...',
     title: 'Resident Evil 4',
     system: 'PS5',
     infos: ['5%', 'R$ 290,00'],
-    image: 'resident'
+    image: resident
   },
   {
     id: 3,
     category: 'Ação',
     description:
-      'Resident Evil 4, conhecido no Jpão como Biohazard 4, é um jogo eletronico de survival horror...',
+      'Resident Evil 4, conhecido no Japão como Biohazard 4, é um jogo eletrônico de survival horror...',
     title: 'Resident Evil 4',
-    system: 'windows',
+    system: 'Windows',
     infos: ['10%', 'R$ 250,00'],
-    image: 'resident'
+    image: resident
   },
   {
     id: 4,
     category: 'Ação',
     description:
-      'Resident Evil 4, conhecido no Jpão como Biohazard 4, é um jogo eletronico de survival horror...',
+      'Resident Evil 4, conhecido no Japão como Biohazard 4, é um jogo eletrônico de survival horror...',
     title: 'Resident Evil 4',
-    system: 'windows',
+    system: 'Windows',
     infos: ['10%', 'R$ 250,00'],
-    image: 'resident'
+    image: resident
   }
 ]
 
@@ -54,9 +54,9 @@ const emBreve: Game[] = [
     id: 5,
     category: 'RPG',
     description:
-      'Diablo IV é um RPG de ação em desenvolvimento plea Blizzard entertainment.',
+      'Diablo IV é um RPG de ação em desenvolvimento pela Blizzard Entertainment.',
     title: 'Diablo 4',
-    system: 'windows',
+    system: 'Windows',
     infos: ['17/05'],
     image: diablo
   },
@@ -64,9 +64,9 @@ const emBreve: Game[] = [
     id: 6,
     category: 'RPG',
     description:
-      'Diablo IV é um RPG de ação em desenvolvimento plea Blizzard entertainment.',
+      'Diablo IV é um RPG de ação em desenvolvimento pela Blizzard Entertainment.',
     title: 'Zelda',
-    system: 'windows',
+    system: 'Windows',
     infos: ['17/05'],
     image: zelda
   },
@@ -74,9 +74,9 @@ const emBreve: Game[] = [
     id: 7,
     category: 'RPG',
     description:
-      'Diablo IV é um RPG de ação em desenvolvimento plea Blizzard entertainment.',
+      'Diablo IV é um RPG de ação em desenvolvimento pela Blizzard Entertainment.',
     title: 'Star Wars',
-    system: 'windows',
+    system: 'Windows',
     infos: ['17/05'],
     image: starWars
   },
@@ -84,9 +84,9 @@ const emBreve: Game[] = [
     id: 8,
     category: 'RPG',
     description:
-      'Diablo IV é um RPG de ação em desenvolvimento plea Blizzard entertainment.',
+      'Diablo IV é um RPG de ação em desenvolvimento pela Blizzard Entertainment.',
     title: 'Resident Evil 4',
-    system: 'Nitendo Switch',
+    system: 'Nintendo Switch',
     infos: ['17/05'],
     image: resident
   }
@@ -100,4 +100,5 @@ const Categories = () => (
     <ProductsList games={emBreve} title="FPS" background="black" />
   </>
 )
+
 export default Categories

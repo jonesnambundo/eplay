@@ -16,7 +16,7 @@ const promocoes: Game[] = [
     title: 'Resident Evil 4',
     system: 'windows',
     infos: ['10%', 'R$ 250,00'],
-    image: 'resident'
+    image: resident
   },
   {
     id: 2,
@@ -26,7 +26,7 @@ const promocoes: Game[] = [
     title: 'Resident Evil 4',
     system: 'PS5',
     infos: ['5%', 'R$ 290,00'],
-    image: 'resident'
+    image: resident
   },
   {
     id: 3,
@@ -36,7 +36,7 @@ const promocoes: Game[] = [
     title: 'Resident Evil 4',
     system: 'windows',
     infos: ['10%', 'R$ 250,00'],
-    image: 'resident'
+    image: resident
   },
   {
     id: 4,
@@ -46,7 +46,7 @@ const promocoes: Game[] = [
     title: 'Resident Evil 4',
     system: 'windows',
     infos: ['10%', 'R$ 250,00'],
-    image: 'resident'
+    image: resident
   }
 ]
 
@@ -96,7 +96,7 @@ const emBreve: Game[] = [
 const Home = () => (
   <>
     <Banner />
-    <ProductsList games={promocoes} title="Promoçoes" background="gray" />
+    <ProductsList games={promocoes} title="Promoções" background="gray" />
     <ProductsList games={emBreve} title="Em breve" background="black" />
   </>
 )

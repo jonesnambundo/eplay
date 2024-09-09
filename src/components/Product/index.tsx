@@ -1,4 +1,5 @@
 import Tag from '../Tag'
+
 import { Card, Descricao, Titulo, Infos } from './styles'
 
 type Props = {
@@ -19,7 +20,7 @@ const Product = ({
   image
 }: Props) => (
   <Card>
-    <img src="image" alt={image} />
+    <img src={image} alt={title} />
     <Infos>
       {infos.map((info) => (
         <Tag key={info}>{info}</Tag>
@@ -28,12 +29,7 @@ const Product = ({
     <Titulo>{title}</Titulo>
     <Tag>{category}</Tag>
     <Tag>{system}</Tag>
-    <Descricao>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores vero
-      perferendis, vitae ullam alias quibusdam deserunt hic nulla explicabo rem
-      enim cupiditate eum praesentium, quos, dignissimos ab distinctio magnam
-      at.
-    </Descricao>
+    <Descricao>{description}</Descricao>
   </Card>
 )
 
