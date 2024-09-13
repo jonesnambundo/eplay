@@ -6,7 +6,7 @@ export type Props = {
   children: JSX.Element
 }
 
-const Section = ({ title, background }: Props) => (
+const Section = ({ title, background, children }: Props) => (
   <Container background={background}>
     <div className="container">
       <Title>{title}</Title>
