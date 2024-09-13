@@ -3,6 +3,7 @@ import Hero from '../../components/Hero'
 import Section from '../../components/Section'
 
 import Gallery from '../../components/Gallery'
+import residentEvil from '../../assets/images/resident.png'
 
 const Product = () => {
   const { id } = useParams()
@@ -24,7 +25,7 @@ const Product = () => {
           illo cupiditate totam, obcaecati maxime placeat ipsa omnis dolores!
         </p>
       </Section>
-      <Gallery />
+      <Gallery name="jogo teste" jogos defaultCover={residentEvil} />
     </>
   )
 }
