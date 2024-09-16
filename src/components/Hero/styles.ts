@@ -38,6 +38,7 @@ export const Banner = styled.div`
     justify-content: space-between;
   }
 `
+
 export const Infos = styled.div`
   padding: 16px;
   background-color: ${cores.preta};
@@ -51,10 +52,10 @@ export const Infos = styled.div`
   p {
     font-size: 18px;
     margin: 16px 0;
-  }
 
-  span {
-    display: block;
-    text-decoration: line-through;
+    span {
+      display: block;
+      text-decoration: line-through;
+    }
   }
 `
